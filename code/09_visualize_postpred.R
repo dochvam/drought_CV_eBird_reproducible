@@ -265,9 +265,8 @@ cred_hist_niche <- cred_hist_niche + theme(legend.position = "none")
     scale_color_manual("", values = cred_colors) +
     scale_alpha_manual("", values = cred_alphas) +
     theme(panel.grid.minor.y = element_blank(),
-          panel.grid.major.x = element_blank(),
-          axis.text.x = element_blank()) +
-    xlab("Log mass") + ylab("Pct. change in abundance during drought") +
+          panel.grid.major.x = element_blank()) +
+    xlab("Log mass (g)") + ylab("Pct. change in abundance during drought") +
     ggtitle("(c)") +
     theme(legend.position = "none")
 )
@@ -444,9 +443,8 @@ cred_hist_niche <- cred_hist_niche + theme(legend.position = "none")
     scale_color_manual("", values = cred_colors_shift) +
     scale_alpha_manual("", values = unname(cred_alphas[1:2])) +
     theme(panel.grid.minor.y = element_blank(),
-          panel.grid.major.x = element_blank(),
-          axis.text.x = element_blank()) +
-    xlab("Log mass") + ylab("Pct. change in abundance during drought") +
+          panel.grid.major.x = element_blank()) +
+    xlab("Log mass (g)") + ylab("Pct. change in abundance during drought") +
     ggtitle("(c)") +
     theme(legend.position = "none")
 )
@@ -795,10 +793,10 @@ ggsave(
   grid.arrange(tern_plot + ggtitle("(a)") + theme(plot.margin = margin(rep(-2, 4), "cm")),
                rowfield_shift_plot, 
                perennial_shift_plot, 
-               riparian_shift_plot + xlab("Change in % use"), 
+               riparian_shift_plot + xlab("Relative use"), 
                grass_shift_plot, 
                othernat_shift_plot, 
-               other_shift_plot + xlab("Change in % use"), 
+               other_shift_plot + xlab("Relative use"), 
                right = legend_hab, layout_matrix = ly_mtx),
   width = 12, height = 5, filename = "plots/fig3_hab_shift_plot.jpg"
 )

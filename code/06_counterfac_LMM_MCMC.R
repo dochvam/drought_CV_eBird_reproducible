@@ -168,7 +168,7 @@ cell_info <- all_data %>%
   distinct()
 spei_archetype_vals <- data.frame(
   drought_level = c("high", "med", "low"),
-  spei = c(-1.41, 0, 1.66)
+  spei = c(-1.53, 0, 1.43)
 )
 
 # Make data frames from which to predict posterior distributions
