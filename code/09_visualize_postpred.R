@@ -336,50 +336,6 @@ spec_w_interactions <- species_interactions$species[species_interactions$has_int
 hab_counts <- read_csv("intermediate/spec_habcount_draws_1.csv")
 
 
-# 
-# hab_changes_long <- hab_counts %>% 
-#   pivot_longer(cols = all_of(c(land_covars, "other")), 
-#                names_to = "hab", values_to = "count") %>% 
-#   select(-cond_iter, -cond_type) %>% 
-#   ungroup() %>% 
-#   mutate(count = ifelse(count < 0, 0, count)) %>% 
-#   pivot_wider(id_cols = c("i", "hab", "species"), names_from = "type", values_from = "count") %>% 
-#   mutate(ldrought = log(drought), lnodrought = log(nodrought),
-#          ldiff = ldrought - lnodrought)
-# 
-# 
-# hab_change_mags <- hab_changes_long %>% 
-#   group_by(species, hab) %>% 
-#   summarize(med_ldiff = median(ldiff),
-#             Q025_ldiff = quantile(ldiff, 0.025),
-#             Q975_ldiff = quantile(ldiff, 0.975)) %>% 
-#   mutate(cred_type = ifelse(Q975_ldiff < 0, "Credible decline",
-#                             ifelse(Q025_ldiff > 0, "Credible increase", 
-#                                    "No credible diff."))) %>% 
-#   ungroup()
-# 
-# 
-# species_habchanges <- hab_change_mags %>% 
-#   group_by(species) %>% 
-#   summarize(has_int_bycount = !all(cred_type == "No credible diff.")) %>% 
-#   left_join(species_interactions[, c("species", "has_int_byderived")])
-# 
-# 
-# 
-# hab_change_mags %>% 
-#   filter(species %in% spec_w_interactions) %>%
-#   ggplot(aes(species, med_ldiff, ymin = Q025_ldiff, ymax = Q975_ldiff, col = cred_type)) +
-#   geom_pointrange(data = hab_change_mags) +
-#   facet_wrap(~hab) + 
-#   scale_color_manual(values = cred_colors) +
-#   theme_minimal() +
-#   theme(axis.text.x = element_blank()) +
-#   ylab("Difference during drought in log count")
-# 
-
-
-
-
 
 #### Traits vs. hab shifts ####
 cred_colors_shift <- cred_colors[1:2]
