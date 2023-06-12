@@ -1,0 +1,28 @@
+PROTOCOL.CODE,PROTOCOL.TYPE
+P21,Stationary
+P22,Traveling
+P23,Area
+P64,Traveling - Property Specific
+P20,Incidental
+P62,Historical
+P74,International Shorebird Survey (ISS)
+P47,CWC Area Search
+P67,CAC--Common Bird Survey
+P33,Banding
+P41,Rusty Blackbird Spring Migration Blitz
+P61,IBA Canada (protocol)
+P60,eBird Pelagic Protocol
+P65,Breeding Bird Atlas
+P48,Random
+P57,Great Texas Birding Classic
+P71,BirdLife Australia 500m radius search
+P54,Nocturnal Flight Call Count
+P46,CWC Point Count
+P58,Audubon Coastal Bird Survey
+P72,BirdLife Australia 5 km radius search
+P70,BirdLife Australia 20min-2ha survey
+P34,Waterbird Count
+P69,California Brown Pelican Survey
+P68,RAM--Iberian Seawatch Network
+P66,Birds 'n' Bogs Survey
+P39,LoonWatch
