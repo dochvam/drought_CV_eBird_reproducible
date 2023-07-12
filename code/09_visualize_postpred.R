@@ -1,6 +1,5 @@
 ###############################################################################
 # 09_visualize_postpred.R
-# Author: Ben Goldstein
 # Description: This script creates plots based on posterior prediction output.
 ###############################################################################
 

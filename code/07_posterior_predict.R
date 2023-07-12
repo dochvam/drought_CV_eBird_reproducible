@@ -1,6 +1,5 @@
 ###############################################################################
 # 07_posterior_predict.R
-# Author: Ben Goldstein
 # Description: This script conducts posterior prediction methodology. Using
 #      posterior samples generated during N-mixture model and LMM estimation,
 #      an abundance is sampled for each species under drought and non-drought

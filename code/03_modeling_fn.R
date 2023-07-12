@@ -1,6 +1,5 @@
 ###############################################################################
 # 03_modeling_fn.R
-# Author: Ben Goldstein
 # Description: This script defines the functions used in modeling. The 
 #      two major functions are write_nmix_model, which uses inputs to create a
 #      script defining nimbleModel code for a given model specification; and

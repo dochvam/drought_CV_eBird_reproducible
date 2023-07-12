@@ -1,6 +1,5 @@
 ###############################################################################
 # 05_rerun_nmix_fit.R
-# Author: Ben Goldstein
 # Description: This script is a modified version of 04_main_nmix_fit.R designed
 #      to handle species for which the original model run gave insufficient
 #      samples. It identifies minimum effective sample size for all species and

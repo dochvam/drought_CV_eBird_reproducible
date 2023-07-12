@@ -1,6 +1,5 @@
 ###############################################################################
 # 02_covariate_data.R
-# Author: Ben Goldstein
 # Description: This script prepares all covariate data, including: aggregating
 #     land cover types into categories used for modeling, retrieving and
 #     preparing temperature and precipitation data, processing EVI and NDWI.

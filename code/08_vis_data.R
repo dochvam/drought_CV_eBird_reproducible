@@ -1,6 +1,5 @@
 ###############################################################################
 # 08_vis_data.R
-# Author: Ben Goldstein
 # Description: This script creates some summary plots based on input data.
 #      
 ###############################################################################

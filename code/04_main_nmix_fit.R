@@ -1,6 +1,5 @@
 ###############################################################################
 # 04_main_nmix_fit.R
-# Author: Ben Goldstein
 # Description: This script calls helper script 03_modeling_fn.R and executes
 #      MCMC estimation of the model for all species. It contains some logic
 #      to help the user avoid re-running models for species that have already

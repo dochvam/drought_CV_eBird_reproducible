@@ -26,11 +26,11 @@ A code repository to accompany the manuscript "Drought influences habitat associ
 
     -   LATITUDE
 
-    -   LONGITUDE	
+    -   LONGITUDE
 
     -   OBSERVATION.DATE
 
-    -   TIME.OBSERVATIONS.STARTED	
+    -   TIME.OBSERVATIONS.STARTED
 
     -   OBSERVER.ID - a unique ID grouping checklists submitted by the same eBird observer
 
@@ -60,4 +60,4 @@ A code repository to accompany the manuscript "Drought influences habitat associ
 
 ### Contact me
 
-If you have any questions about the code in this repository, you can contact the corresponding author at ben.goldstein [at] berkeley.edu
+If you have any questions about the code in this repository, you can contact the corresponding author.

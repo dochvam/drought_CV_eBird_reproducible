@@ -1,6 +1,5 @@
 ###############################################################################
 # make_data.R
-# Author: Ben Goldstein
 # Description: This helper script is used in a number of places in the workflow.
 #      Its purpose is to produce the single data frame "all_model_data" that
 #      represents the data as modeled for all species, where each row is an

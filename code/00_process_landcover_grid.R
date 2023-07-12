@@ -1,6 +1,5 @@
 ###############################################################################
 # 00_process_covars.R
-# Author: Ben Goldstein
 # Description: This script calculates land cover percentages using
 #    raw input land cover classes for every grid cell in the Central
 #    Valley.

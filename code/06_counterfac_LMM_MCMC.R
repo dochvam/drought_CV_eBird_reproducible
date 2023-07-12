@@ -1,6 +1,5 @@
 ###############################################################################
 # 06_counterfac_LMM_MCMC.R
-# Author: Ben Goldstein
 # Description: This script prepares data for and runs four Bayesian linear
 #      mixed models of environmental variables. It uses prediction methodology
 #      to generate posterior predictive distributions of each environmental
